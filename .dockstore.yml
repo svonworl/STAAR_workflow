@@ -8,7 +8,7 @@ workflows:
     authors:
       - name: Sheila Gaynor
   - subclass: CWL
-    primaryDescriptorPath: /cwl/staar_workflow.cwl
+    primaryDescriptorPath: /CWL/staar_workflow.cwl
     name: STAAR-workflow-cwl
     authors:
-      - name: Sheila Gaynor
+      - name: Lea Ackovic
