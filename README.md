@@ -1,5 +1,5 @@
 # STAAR_workflow: Rare variant analysis methods for WGS data
-Maintainer: Sheila Gaynor
+Maintainer: Sheila Gaynor  
 Version: 1.2
 
 ## Description:
@@ -22,7 +22,7 @@ The workflow contains three tasks, including two key analysis steps. The workflo
 - **null_memory**: [int] optional, requested memory in GB (numeric)
 - **null_disk**: [int] optional, requested disk size (numeric)
 
-### Association test R/WDL inputs - all user-provided with optional arguments denoted and annotations provided in **either** an external file (annot_file) or within the gds file as annotation channels (agds_file_type, agds_annot_channels); note, the null model generated in the previous task is provided directly to the association task when the optional null_file_precompute argument is not provided:
+### Association test R/WDL inputs - all user-provided with optional arguments denoted and annotations provided in \*\*either\*\* an external file (annot_file) or within the gds file as annotation channels (agds_file_type, agds_annot_channels); note, the null model generated in the previous task is provided directly to the association task when the optional null_file_precompute argument is not provided:
 - **null_file_precompute**: [file] optional, user-provided or work-flow generated, file containing output from null model fitting via STAAR (.Rds)
 - **geno_file**: [file] file(s) containing genotypes for all individuals from null model, optionally containing the given annotation channels if in agds format (.gds)
 - **annot_file**: [file] optional, file containing annotations as input with columns 'chr', 'pos', 'ref', 'alt' and named annotation columns for rows of variants (.Rds, .Rdata, .csv)
