@@ -7,8 +7,10 @@ workflows:
     name: STAAR-workflow-wdl
     authors:
       - name: Sheila Gaynor
+      - email: sheilagaynor@hsph.harvard.edu
   - subclass: CWL
     primaryDescriptorPath: /CWL/staar_workflow.cwl
     name: STAAR-workflow-cwl
     authors:
       - name: Lea Ackovic
+      - affiliation: Seven Bridges Genomics
