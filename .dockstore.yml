@@ -9,7 +9,7 @@ workflows:
       - email: sheilagaynor@hsph.harvard.edu
   - subclass: CWL
     primaryDescriptorPath: /CWL/staar_workflow.cwl
-    name: STAAR_workflow_cwl
+    name: STAAR-workflow-cwl
     authors:
       - name: Lea Ackovic
       - affiliation: Seven Bridges Genomics
