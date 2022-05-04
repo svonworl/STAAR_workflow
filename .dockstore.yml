@@ -4,7 +4,6 @@ workflows:
     primaryDescriptorPath: /STAAR_analysis_workflow.wdl
     testParameterFiles:
       - /test.json
-    name: STAAR_workflow
     authors:
       - name: Sheila Gaynor
       - email: sheilagaynor@hsph.harvard.edu
