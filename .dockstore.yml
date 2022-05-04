@@ -1,0 +1,14 @@
+version: 1.2
+workflows:
+  - subclass: WDL
+    primaryDescriptorPath: /STAAR_analysis_workflow.wdl
+    testParameterFiles:
+      - /test.json
+    name: STAAR-workflow-wdl
+    authors:
+      - name: Sheila Gaynor
+  - subclass: CWL
+    primaryDescriptorPath: /cwl/staar_workflow.cwl
+    name: STAAR-workflow-cwl
+    authors:
+      - name: Sheila Gaynor
