@@ -1,15 +1,10 @@
+
 version: 1.2
 workflows:
   - subclass: WDL
     primaryDescriptorPath: /STAAR_analysis_workflow.wdl
     testParameterFiles:
       - /test.json
-    authors:
-      - name: Sheila Gaynor
-      - email: sheilagaynor@hsph.harvard.edu
   - subclass: CWL
     primaryDescriptorPath: /CWL/staar_workflow.cwl
     name: STAAR-workflow-cwl
-    authors:
-      - name: Lea Ackovic
-      - affiliation: Seven Bridges Genomics
